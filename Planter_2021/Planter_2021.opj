@@ -3,11 +3,11 @@
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library"
-      (File "C:\Users\User\Documents\Cad_Library\ATMEGA.OLB"
+      (File "..\library\atmega.olb"
         (Type "Schematic Library"))
-      (File "C:\Users\User\Documents\Cad_Library\SENSOR.OLB"
+      (File "..\library\atxcon.olb"
         (Type "Schematic Library"))
-      (File "C:\Users\User\Documents\Cad_Library\ATXCON.OLB"
+      (File "..\library\sensor.olb"
         (Type "Schematic Library")))
     (NoModify)
     (File ".\planter_2021.dsn"
@@ -18,9 +18,39 @@
   (Folder "Referenced Projects")
   (MPSSessionName "User")
   (PartMRUSelector
+    ("CAP POL"
+      (FullPartName "CAP POL.Normal")
+      (LibraryName
+         "D:\PROGRAM FILES\CADENCE\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("SW PUSHBUTTON"
+      (FullPartName "SW PUSHBUTTON.Normal")
+      (LibraryName
+         "D:\PROGRAM FILES\CADENCE\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (CON3
+      (FullPartName "CON3.Normal")
+      (LibraryName
+         "D:\PROGRAM FILES\CADENCE\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
     (R
       (FullPartName "R.Normal")
       (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("NPN BCE"
+      (FullPartName "NPN BCE.Normal")
+      (LibraryName
+         "D:\PROGRAM FILES\CADENCE\TOOLS\CAPTURE\LIBRARY\TRANSISTOR.OLB")
+      (DeviceIndex "0"))
+    ("PNP EBC"
+      (FullPartName "PNP EBC.Normal")
+      (LibraryName
+         "D:\PROGRAM FILES\CADENCE\TOOLS\CAPTURE\LIBRARY\TRANSISTOR.OLB")
+      (DeviceIndex "0"))
+    ("NPN ECB"
+      (FullPartName "NPN ECB.Normal")
+      (LibraryName
+         "D:\PROGRAM FILES\CADENCE\TOOLS\CAPTURE\LIBRARY\TRANSISTOR.OLB")
       (DeviceIndex "0"))
     (GND
       (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
@@ -35,10 +65,6 @@
       (DeviceIndex "0"))
     ("NPN EBC"
       (FullPartName "NPN EBC.Normal")
-      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\TRANSISTOR.OLB")
-      (DeviceIndex "0"))
-    ("NPN BCE"
-      (FullPartName "NPN BCE.Normal")
       (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\TRANSISTOR.OLB")
       (DeviceIndex "0"))
     ("CAP NP"
@@ -84,27 +110,23 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
+      (Path "Design Resources" ".\planter_2021.dsn")
+      (Path "Design Resources" ".\planter_2021.dsn" "SCHEMATIC1")
       (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library"
-         "C:\Users\User\Documents\Cad_Library\ATMEGA.OLB")
-      (Path "Design Resources" "Library"
-         "C:\Users\User\Documents\Cad_Library\SENSOR.OLB")
-      (Path "Design Resources" "Library"
-         "C:\Users\User\Documents\Cad_Library\ATXCON.OLB")
-      (Select "Design Resources" ".\planter_2021.dsn"))
+      (Select "Design Resources" ".\planter_2021.dsn" "Design Cache"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 0 200 0 150"))
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 150"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 52 946 52 231")
-        (Scroll "0 0")
-        (Zoom "152")
+        (Placement "44 2 3 -1 -1 -8 -31 52 1349 52 373")
+        (Scroll "-259 -3")
+        (Zoom "50")
         (Occurrence "/"))
-      (Path "E:\TODO\DEVELOP\PLANTER\PLANTER_2021\PLANTER_2021.DSN")
+      (Path "D:\DEVELOP\PLANTER\PLANTER_2021\PLANTER_2021.DSN")
       (Schematic "SCHEMATIC1")
       (Page "PAGE1"))))
