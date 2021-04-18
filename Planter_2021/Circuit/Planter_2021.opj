@@ -161,28 +161,25 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources"
-         "w:\develop\repositoies\planter\planter_2021\circuit\planter_2021.dsn")
-      (Path "Design Resources"
-         "w:\develop\repositoies\planter\planter_2021\circuit\planter_2021.dsn"
-         "SCHEMATIC1")
+      (Path "Design Resources" ".\planter_2021.dsn")
+      (Path "Design Resources" ".\planter_2021.dsn" "SCHEMATIC1")
       (Path "Design Resources" "Library")
       (Path "Outputs")
-      (Select "Design Resources"))
+      (Select "Design Resources" ".\planter_2021.dsn" "SCHEMATIC1" "PAGE1"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 0 200 0 150"))
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 150"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 80 1604 52 504")
-        (Scroll "400 600")
+        (Placement "44 2 3 -1 -1 -8 -31 80 1604 52 504")
+        (Scroll "44 75")
         (Zoom "200")
         (Occurrence "/"))
       (Path
-         "W:\DEVELOP\REPOSITOIES\PLANTER\PLANTER_2021\CIRCUIT\PLANTER_2021.DSN")
+         "C:\DATA\DEVELOP\REPOSITORIES\PLANTER\PLANTER_2021\CIRCUIT\PLANTER_2021.DSN")
       (Schematic "SCHEMATIC1")
       (Page "PAGE1"))))
