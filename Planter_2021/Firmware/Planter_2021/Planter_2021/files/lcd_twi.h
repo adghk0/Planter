@@ -22,13 +22,23 @@
 #define LCD_D6	6
 #define LCD_D7	7
 
-#include <util/delay.h>
+#define F_CPU 16000000L
+
 #include "twi.h"
+#include <util/delay.h>
 
 unsigned char lcd_backlight;
 
+void lcd_move(unsigned char x, unsigned char y);
+void lcd_clear();
+void lcd_cursor_home();
+void lcd_display(unsigned char display);
+void lcd_backlight_on();
+void lcd_backlight_off();
+
 void lcd_send_cmd(unsigned char cmd);
 void lcd_send_data(char data);
+void lcd_send_string(char* str);
 
 void lcd_init();
 

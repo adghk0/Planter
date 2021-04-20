@@ -14,24 +14,18 @@
 #include "files/twi.h"
 #include "files/lcd_twi.h"
 
+
 int main(void)
 {
-    int i, j;
 	DDRB = 0xff;
 	
 	twi_init();
 	lcd_init();
 
-    while (1) 
+	lcd_send_string("hello world!");
+	lcd_move(0, 1);
+	lcd_send_string("Lee woo sub ba boo");
+	while (1) 
     {
-		for(i = 0; i < 3; i++)
-		{
-			lcd_send_cmd(0x80 | 0x50);
-			for(j = 0; j < 16; j++)
-			{
-				lcd_send_data(i * 0x20 + j + 0x20);
-			}
-			_delay_ms(2000);
-		}
     }
 }
