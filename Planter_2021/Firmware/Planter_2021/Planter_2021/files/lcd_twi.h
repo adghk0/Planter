@@ -24,8 +24,10 @@
 
 #define F_CPU 16000000L
 
-#include "twi.h"
+#include <avr/io.h>
 #include <util/delay.h>
+
+#include "twi.h"
 
 unsigned char lcd_backlight;
 

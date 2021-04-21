@@ -15,7 +15,8 @@ main.d main.o: .././main.c \
  d:\program\atmelstudio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\math.h \
  .././files/twi.h \
  d:\program\atmelstudio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\util\twi.h \
- .././files/lcd_twi.h .././files/twi.h
+ .././files/lcd_twi.h .././files/twi.h .././files/uart.h \
+ d:\program\atmelstudio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\interrupt.h
 
 d:\program\atmelstudio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\io.h:
 
@@ -52,3 +53,7 @@ d:\program\atmelstudio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\util\tw
 .././files/lcd_twi.h:
 
 .././files/twi.h:
+
+.././files/uart.h:
+
+d:\program\atmelstudio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\interrupt.h:

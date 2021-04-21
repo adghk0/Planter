@@ -1,4 +1,4 @@
-files/twi.d files/twi.o: ../files/twi.c ../files/twi.h \
+files/uart.d files/uart.o: ../files/uart.c \
  d:\program\atmelstudio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\io.h \
  d:\program\atmelstudio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\sfr_defs.h \
  d:\program\atmelstudio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\inttypes.h \
@@ -10,12 +10,8 @@ files/twi.d files/twi.o: ../files/twi.c ../files/twi.h \
  d:\program\atmelstudio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\version.h \
  d:\program\atmelstudio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\fuse.h \
  d:\program\atmelstudio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\lock.h \
- d:\program\atmelstudio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\util\twi.h \
- d:\program\atmelstudio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\util\delay.h \
- d:\program\atmelstudio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\util\delay_basic.h \
- d:\program\atmelstudio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\math.h
-
-../files/twi.h:
+ d:\program\atmelstudio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\interrupt.h \
+ ../files/uart.h
 
 d:\program\atmelstudio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\io.h:
 
@@ -39,10 +35,6 @@ d:\program\atmelstudio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\fus
 
 d:\program\atmelstudio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\lock.h:
 
-d:\program\atmelstudio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\util\twi.h:
+d:\program\atmelstudio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\interrupt.h:
 
-d:\program\atmelstudio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\util\delay.h:
-
-d:\program\atmelstudio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\util\delay_basic.h:
-
-d:\program\atmelstudio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\math.h:
+../files/uart.h:

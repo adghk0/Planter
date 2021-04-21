@@ -6,5 +6,7 @@ files\lcd_twi.c
 
 files\twi.c
 
+files\uart.c
+
 main.c
 

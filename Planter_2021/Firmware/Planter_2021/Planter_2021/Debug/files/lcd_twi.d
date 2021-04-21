@@ -1,6 +1,4 @@
 files/lcd_twi.d files/lcd_twi.o: ../files/lcd_twi.c ../files/lcd_twi.h \
- ../files/twi.h \
- d:\program\atmelstudio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\util\twi.h \
  d:\program\atmelstudio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\io.h \
  d:\program\atmelstudio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\sfr_defs.h \
  d:\program\atmelstudio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\inttypes.h \
@@ -14,13 +12,11 @@ files/lcd_twi.d files/lcd_twi.o: ../files/lcd_twi.c ../files/lcd_twi.h \
  d:\program\atmelstudio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\lock.h \
  d:\program\atmelstudio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\util\delay.h \
  d:\program\atmelstudio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\util\delay_basic.h \
- d:\program\atmelstudio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\math.h
+ d:\program\atmelstudio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\math.h \
+ ../files/twi.h \
+ d:\program\atmelstudio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\util\twi.h
 
 ../files/lcd_twi.h:
-
-../files/twi.h:
-
-d:\program\atmelstudio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\util\twi.h:
 
 d:\program\atmelstudio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\io.h:
 
@@ -49,3 +45,7 @@ d:\program\atmelstudio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\util\de
 d:\program\atmelstudio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\util\delay_basic.h:
 
 d:\program\atmelstudio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\math.h:
+
+../files/twi.h:
+
+d:\program\atmelstudio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\util\twi.h:
